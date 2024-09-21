@@ -32,7 +32,7 @@ class Author {
 
 public class Main {
     public static void main(String[] args) {
-        Author author = new Author("Pasha Tehnik", "pasha@hydra.pon", 'M');
+        Author author = new Author("John Doe", "JohnDoe@mail.com", 'M');
         System.out.println(author.getString());
     }
 }
